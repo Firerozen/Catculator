@@ -2,12 +2,13 @@
 //  AppDelegate.swift
 //  Catculator
 //
-//  Created by shawn on 12/01/2020.
+//  Created by shawn on 18/01/2020.
 //  Copyright © 2020 firerozen. All rights reserved.
 //
 
 import UIKit
 import CoreData
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        do {
+            let realm = try Realm()
+            
+        } catch {
+            print("error, \(error)")
+        }
         return true
     }
 

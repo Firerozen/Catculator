@@ -3,83 +3,148 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29E5A73823CBC42D00023B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5A73723CBC42D00023B66 /* AppDelegate.swift */; };
-		29E5A73A23CBC42D00023B66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5A73923CBC42D00023B66 /* SceneDelegate.swift */; };
-		29E5A73C23CBC42D00023B66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5A73B23CBC42D00023B66 /* ViewController.swift */; };
-		29E5A73F23CBC42D00023B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E5A73D23CBC42D00023B66 /* Main.storyboard */; };
-		29E5A74223CBC42D00023B66 /* Catculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29E5A74023CBC42D00023B66 /* Catculator.xcdatamodeld */; };
-		29E5A74423CBC42E00023B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E5A74323CBC42E00023B66 /* Assets.xcassets */; };
-		29E5A74723CBC42E00023B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E5A74523CBC42E00023B66 /* LaunchScreen.storyboard */; };
+		2909FCF123D3E86B001C293D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2909FCF023D3E86B001C293D /* Category.swift */; };
+		2928513723D3697300B42898 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928513623D3697300B42898 /* Model.swift */; };
+		297651F523D35B6D00449013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297651F423D35B6D00449013 /* AppDelegate.swift */; };
+		297651F723D35B6D00449013 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297651F623D35B6D00449013 /* SceneDelegate.swift */; };
+		297651F923D35B6D00449013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297651F823D35B6D00449013 /* ViewController.swift */; };
+		297651FC23D35B6D00449013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297651FA23D35B6D00449013 /* Main.storyboard */; };
+		2976520123D35B6F00449013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976520023D35B6F00449013 /* Assets.xcassets */; };
+		2976520423D35B6F00449013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976520223D35B6F00449013 /* LaunchScreen.storyboard */; };
+		2976520D23D35F8100449013 /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976520B23D35F8100449013 /* IngredientCell.swift */; };
+		2976520E23D35F8100449013 /* IngredientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2976520C23D35F8100449013 /* IngredientCell.xib */; };
+		2976521123D363CE00449013 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976521023D363CE00449013 /* Constants.swift */; };
+		29FE243323D3CCF500350D60 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE243223D3CCF500350D60 /* Ingredient.swift */; };
+		74DEABA0C160D9219F235E41 /* Pods_Catculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDB8AACD3C10E55808584F2 /* Pods_Catculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29E5A73423CBC42D00023B66 /* Catculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E5A73723CBC42D00023B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29E5A73923CBC42D00023B66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29E5A73B23CBC42D00023B66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29E5A73E23CBC42D00023B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		29E5A74123CBC42D00023B66 /* Catculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Catculator.xcdatamodel; sourceTree = "<group>"; };
-		29E5A74323CBC42E00023B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29E5A74623CBC42E00023B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		29E5A74823CBC42E00023B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2909FCF023D3E86B001C293D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2928513623D3697300B42898 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		297651F123D35B6D00449013 /* Catculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		297651F423D35B6D00449013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		297651F623D35B6D00449013 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		297651F823D35B6D00449013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		297651FB23D35B6D00449013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2976520023D35B6F00449013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2976520323D35B6F00449013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2976520523D35B6F00449013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976520B23D35F8100449013 /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
+		2976520C23D35F8100449013 /* IngredientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientCell.xib; sourceTree = "<group>"; };
+		2976521023D363CE00449013 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		29FE243223D3CCF500350D60 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		762721A5B69D7037F35D24D8 /* Pods-Catculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catculator.release.xcconfig"; path = "Target Support Files/Pods-Catculator/Pods-Catculator.release.xcconfig"; sourceTree = "<group>"; };
+		93886F5FAA73639A369D57E1 /* Pods-Catculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catculator.debug.xcconfig"; path = "Target Support Files/Pods-Catculator/Pods-Catculator.debug.xcconfig"; sourceTree = "<group>"; };
+		ABDB8AACD3C10E55808584F2 /* Pods_Catculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29E5A73123CBC42D00023B66 /* Frameworks */ = {
+		297651EE23D35B6D00449013 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DEABA0C160D9219F235E41 /* Pods_Catculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29E5A72B23CBC42D00023B66 = {
+		2928513A23D36A7400B42898 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				29E5A73623CBC42D00023B66 /* Catculator */,
-				29E5A73523CBC42D00023B66 /* Products */,
+				2976521023D363CE00449013 /* Constants.swift */,
+				2928513623D3697300B42898 /* Model.swift */,
+				29FE243223D3CCF500350D60 /* Ingredient.swift */,
+				2909FCF023D3E86B001C293D /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		297651E823D35B6D00449013 = {
+			isa = PBXGroup;
+			children = (
+				297651F323D35B6D00449013 /* Catculator */,
+				297651F223D35B6D00449013 /* Products */,
+				66680615B3F85C3B7616F039 /* Pods */,
+				55F9B84291A5EECCA703CEE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		29E5A73523CBC42D00023B66 /* Products */ = {
+		297651F223D35B6D00449013 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29E5A73423CBC42D00023B66 /* Catculator.app */,
+				297651F123D35B6D00449013 /* Catculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29E5A73623CBC42D00023B66 /* Catculator */ = {
+		297651F323D35B6D00449013 /* Catculator */ = {
 			isa = PBXGroup;
 			children = (
-				29E5A73723CBC42D00023B66 /* AppDelegate.swift */,
-				29E5A73923CBC42D00023B66 /* SceneDelegate.swift */,
-				29E5A73B23CBC42D00023B66 /* ViewController.swift */,
-				29E5A73D23CBC42D00023B66 /* Main.storyboard */,
-				29E5A74323CBC42E00023B66 /* Assets.xcassets */,
-				29E5A74523CBC42E00023B66 /* LaunchScreen.storyboard */,
-				29E5A74823CBC42E00023B66 /* Info.plist */,
-				29E5A74023CBC42D00023B66 /* Catculator.xcdatamodeld */,
+				297651F423D35B6D00449013 /* AppDelegate.swift */,
+				297651F623D35B6D00449013 /* SceneDelegate.swift */,
+				29FE243123D3CCD100350D60 /* Controllers */,
+				2928513A23D36A7400B42898 /* Models */,
+				2976520F23D363B200449013 /* View */,
+				2976520023D35B6F00449013 /* Assets.xcassets */,
+				2976520223D35B6F00449013 /* LaunchScreen.storyboard */,
+				2976520523D35B6F00449013 /* Info.plist */,
 			);
 			path = Catculator;
+			sourceTree = "<group>";
+		};
+		2976520F23D363B200449013 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				297651FA23D35B6D00449013 /* Main.storyboard */,
+				2976520B23D35F8100449013 /* IngredientCell.swift */,
+				2976520C23D35F8100449013 /* IngredientCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29FE243123D3CCD100350D60 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				297651F823D35B6D00449013 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		55F9B84291A5EECCA703CEE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABDB8AACD3C10E55808584F2 /* Pods_Catculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66680615B3F85C3B7616F039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93886F5FAA73639A369D57E1 /* Pods-Catculator.debug.xcconfig */,
+				762721A5B69D7037F35D24D8 /* Pods-Catculator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29E5A73323CBC42D00023B66 /* Catculator */ = {
+		297651F023D35B6D00449013 /* Catculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29E5A74B23CBC42E00023B66 /* Build configuration list for PBXNativeTarget "Catculator" */;
+			buildConfigurationList = 2976520823D35B6F00449013 /* Build configuration list for PBXNativeTarget "Catculator" */;
 			buildPhases = (
-				29E5A73023CBC42D00023B66 /* Sources */,
-				29E5A73123CBC42D00023B66 /* Frameworks */,
-				29E5A73223CBC42D00023B66 /* Resources */,
+				8DAB02DF0C56BB731E91920B /* [CP] Check Pods Manifest.lock */,
+				297651ED23D35B6D00449013 /* Sources */,
+				297651EE23D35B6D00449013 /* Frameworks */,
+				297651EF23D35B6D00449013 /* Resources */,
+				894F9F891746F32D5AF71366 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,25 +152,25 @@
 			);
 			name = Catculator;
 			productName = Catculator;
-			productReference = 29E5A73423CBC42D00023B66 /* Catculator.app */;
+			productReference = 297651F123D35B6D00449013 /* Catculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29E5A72C23CBC42D00023B66 /* Project object */ = {
+		297651E923D35B6D00449013 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = firerozen;
 				TargetAttributes = {
-					29E5A73323CBC42D00023B66 = {
-						CreatedOnToolsVersion = 11.3;
+					297651F023D35B6D00449013 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 29E5A72F23CBC42D00023B66 /* Build configuration list for PBXProject "Catculator" */;
+			buildConfigurationList = 297651EC23D35B6D00449013 /* Build configuration list for PBXProject "Catculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +178,103 @@
 				en,
 				Base,
 			);
-			mainGroup = 29E5A72B23CBC42D00023B66;
-			productRefGroup = 29E5A73523CBC42D00023B66 /* Products */;
+			mainGroup = 297651E823D35B6D00449013;
+			productRefGroup = 297651F223D35B6D00449013 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29E5A73323CBC42D00023B66 /* Catculator */,
+				297651F023D35B6D00449013 /* Catculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29E5A73223CBC42D00023B66 /* Resources */ = {
+		297651EF23D35B6D00449013 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E5A74723CBC42E00023B66 /* LaunchScreen.storyboard in Resources */,
-				29E5A74423CBC42E00023B66 /* Assets.xcassets in Resources */,
-				29E5A73F23CBC42D00023B66 /* Main.storyboard in Resources */,
+				2976520E23D35F8100449013 /* IngredientCell.xib in Resources */,
+				2976520423D35B6F00449013 /* LaunchScreen.storyboard in Resources */,
+				2976520123D35B6F00449013 /* Assets.xcassets in Resources */,
+				297651FC23D35B6D00449013 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		894F9F891746F32D5AF71366 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catculator/Pods-Catculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catculator/Pods-Catculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catculator/Pods-Catculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DAB02DF0C56BB731E91920B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		29E5A73023CBC42D00023B66 /* Sources */ = {
+		297651ED23D35B6D00449013 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E5A73C23CBC42D00023B66 /* ViewController.swift in Sources */,
-				29E5A74223CBC42D00023B66 /* Catculator.xcdatamodeld in Sources */,
-				29E5A73823CBC42D00023B66 /* AppDelegate.swift in Sources */,
-				29E5A73A23CBC42D00023B66 /* SceneDelegate.swift in Sources */,
+				2928513723D3697300B42898 /* Model.swift in Sources */,
+				297651F923D35B6D00449013 /* ViewController.swift in Sources */,
+				2976520D23D35F8100449013 /* IngredientCell.swift in Sources */,
+				29FE243323D3CCF500350D60 /* Ingredient.swift in Sources */,
+				297651F523D35B6D00449013 /* AppDelegate.swift in Sources */,
+				297651F723D35B6D00449013 /* SceneDelegate.swift in Sources */,
+				2976521123D363CE00449013 /* Constants.swift in Sources */,
+				2909FCF123D3E86B001C293D /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		29E5A73D23CBC42D00023B66 /* Main.storyboard */ = {
+		297651FA23D35B6D00449013 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29E5A73E23CBC42D00023B66 /* Base */,
+				297651FB23D35B6D00449013 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		29E5A74523CBC42E00023B66 /* LaunchScreen.storyboard */ = {
+		2976520223D35B6F00449013 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29E5A74623CBC42E00023B66 /* Base */,
+				2976520323D35B6F00449013 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +282,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		29E5A74923CBC42E00023B66 /* Debug */ = {
+		2976520623D35B6F00449013 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +342,7 @@
 			};
 			name = Debug;
 		};
-		29E5A74A23CBC42E00023B66 /* Release */ = {
+		2976520723D35B6F00449013 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,8 +396,9 @@
 			};
 			name = Release;
 		};
-		29E5A74C23CBC42E00023B66 /* Debug */ = {
+		2976520923D35B6F00449013 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93886F5FAA73639A369D57E1 /* Pods-Catculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,8 +414,9 @@
 			};
 			name = Debug;
 		};
-		29E5A74D23CBC42E00023B66 /* Release */ = {
+		2976520A23D35B6F00449013 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762721A5B69D7037F35D24D8 /* Pods-Catculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -321,38 +435,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29E5A72F23CBC42D00023B66 /* Build configuration list for PBXProject "Catculator" */ = {
+		297651EC23D35B6D00449013 /* Build configuration list for PBXProject "Catculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E5A74923CBC42E00023B66 /* Debug */,
-				29E5A74A23CBC42E00023B66 /* Release */,
+				2976520623D35B6F00449013 /* Debug */,
+				2976520723D35B6F00449013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29E5A74B23CBC42E00023B66 /* Build configuration list for PBXNativeTarget "Catculator" */ = {
+		2976520823D35B6F00449013 /* Build configuration list for PBXNativeTarget "Catculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E5A74C23CBC42E00023B66 /* Debug */,
-				29E5A74D23CBC42E00023B66 /* Release */,
+				2976520923D35B6F00449013 /* Debug */,
+				2976520A23D35B6F00449013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		29E5A74023CBC42D00023B66 /* Catculator.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				29E5A74123CBC42D00023B66 /* Catculator.xcdatamodel */,
-			);
-			currentVersion = 29E5A74123CBC42D00023B66 /* Catculator.xcdatamodel */;
-			path = Catculator.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 29E5A72C23CBC42D00023B66 /* Project object */;
+	rootObject = 297651E923D35B6D00449013 /* Project object */;
 }
